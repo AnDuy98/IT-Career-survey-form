@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image:url("https://img.freepik.com/free-vector/futuristic-technological-wallpaper_79603-1093.jpg?t=st=1732010841~exp=1732014441~hmac=20b3e401c423c79b2e5e32485dad6568cec9507191b61427eb8b56b16f50312b&w=900");
+    background-size: cover;
+    color: white;
+    font-family: Sans-serif;
+    font-size: 16px;
+  }
+  
+  
+  
+  h1,p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 50px 20px 50px 20px;
+    background-color: rgba(182, 181, 255, 0.2);
+  }
+  
+  fieldset {
+    border: none; 
+    border-bottom: 3px solid none;
+    margin: 0;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,textarea,select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input,textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem; 
+    background-color: rgba(53, 248, 104, 0.8);
+    border: none;
+    min-width: 300px;
+  }

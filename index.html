@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>IT Career Survey Form</title>
+</head>
+<body>
+    <h1 id="title"> IT Career Survey Form</h1>
+    <p id="description">Please give us your thought about this project</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label"> Name<input id="name" type="text" placeholder="Enter your name" required></label>
+      <label id="email-label"> Email<input id="email" type="email" required placeholder="Enter your email"></label>
+      <label id="number-label"> Age<input id="number" type="number" required min="13" max="120" placeholder="Age"></label>
+      </fieldset>
+      <fieldset>
+        <label id="dropdown-menu">Choose your IT Role
+        <select id="dropdown">
+          <option>Choose your role</option>
+          <option>IT Support</option>
+          <option>Software Developing</option>
+          <option>Prefer not to share</option>
+          <option>Other</option>
+      </select>
+      </label>
+      </fieldset>
+      <fieldset>
+        <legend>How do you know about us ?</legend>
+        <label><input name="source" type="radio" value="facebook" class="inline"> Facebook</label>
+        <label><input name="source" type="radio" value="instagram" class="inline"> Instagram</label>
+        <label><input name="source" type="radio" value="threads" class="inline"> Threads</label>
+      </fieldset>
+      <fieldset>
+      <label>What's thing that motivate you about IT ?
+        <label><input type="checkbox" value="software-dev" class="inline"> Sofware Developing</label>
+        <label><input type="checkbox" value="web-dev" class="inline"> Web Developer</label>
+        <label><input type="checkbox" value="cybersecurity" class="inline"> Cybersecurity</label>
+        <label><input type="checkbox" value="BA" class="inline"> Business Analyst</label>
+        <label><input type="checkbox" value="it-support" class="inline"> IT Support Specialists</label>
+      </label>
+      </fieldset>
+      <label>Any comment ? Give us your thought about IT Fields 
+        <textarea placeholder="Any thought ?"></textarea>
+      </label>
+      <label>
+        <input id="submit" type="submit" value="Submit">
+      </label>
+    </form>
+</body>
+</html>
